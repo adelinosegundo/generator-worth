@@ -1,0 +1,39 @@
+{
+  "name": "wordpress-theme",
+  "version": "3.1.0",
+  "authors": [
+    "Wendell P. Barreto <wendellp.barreto@gmail.com>",
+    "Adelino Segundo <adelinosegundo@gmail.com>",
+
+  ],
+  "description": "Wordpress Theme",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "natal",
+    "rn",
+    "rio",
+    "grande",
+    "do",
+    "norte",
+    "nordeste",
+    "animage",
+    "festival",
+    "animação",
+    "site",
+    "webiste",
+    "wordpress"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/bower_components"
+  ],
+  "dependencies": {
+  }
+}
