@@ -2,7 +2,7 @@
 
 $theme_config = array(
 		'show-admin-bar' 		=> false, //default: true
-		'max-posts-per-page'	=> 6
+		'max-posts-per-page'	=> 6,
 		'theme-support' 		=> array(
 											'support-thumbnail' => array(
 													'feature' => 'post-thumbnails',
