@@ -71,3 +71,7 @@ function create_pages_on_the_fly_by_page_name($pageName) {
     // Insert the post into the database
 	wp_insert_post( $createPage );
 }
+
+function get_assets_root_uri(){
+    return str_replace("application/style.css","assets", get_stylesheet_uri());
+}
