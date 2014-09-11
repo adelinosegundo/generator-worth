@@ -75,3 +75,13 @@ function create_pages_on_the_fly_by_page_name($pageName) {
 function get_assets_root_uri(){
     return str_replace("application/style.css","assets", get_stylesheet_uri());
 }
+
+// Add post per page limit to any query
+function add_posts_per_page_to_tag_query( $query ) {
+	global $theme_config;
+    if( !is_admin () &&$query->is_main_query() ) {
+        $query->set( 'posts_per_page', $theme_config['max-posts-per-page'] );
+    }
+
+}
+add_filter( 'pre_get_posts', 'add_posts_per_page_to_tag_query' );
